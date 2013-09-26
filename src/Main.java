@@ -28,29 +28,5 @@ public class Main
         WDGraph sp2 = g.optimalShortestPath("Stockholm",true);
         System.out.println("\nOptimal Shortest Path from 'Stockholm' to all the other vertices:");
         System.out.println(sp2);
-        
-        /*
-        WDGraph test = new WDGraph();
-        test.addVertex("A");
-        test.addVertex("B");
-        test.addVertex("C");
-        test.addVertex("D");
-        test.addVertex("E");
-        
-        test.addEdge("A", "C", 20);
-        test.addEdge("A", "D", 40);
-        test.addEdge("B", "D", 20);
-        test.addEdge("B", "A", 30);
-        test.addEdge("B", "E", 50);
-        test.addEdge("D", "C", 10);
-        test.addEdge("D", "B", 70);
-        test.addEdge("E", "C", 90);
-        
-        WDGraph sp2 = test.shortestPath("A",true);
-        WDGraph sp3 = test.optimalShortestPath("A",true);
-        System.out.println("\nShortest Path from 'A' to all the other vertices:");
-        System.out.println(sp2);
-        System.out.println("\nOptimal Shortest Path from 'A' to all the other vertices:");
-        System.out.println(sp3);*/
     }
 }
